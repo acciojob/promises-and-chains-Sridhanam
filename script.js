@@ -21,10 +21,10 @@
           }
         }, 4000); // Wait 4 seconds
       })
-        .then(() => {
+        then(() => {
           alert(Welcome, ${name}. You can vote.);
         })
-        .catch(() => {
+        catch(() => {
           alert(Oh sorry ${name}. You aren't old enough.);
         });
     });
